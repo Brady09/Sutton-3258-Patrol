@@ -15,4 +15,11 @@ public class DIE : MonoBehaviour
     {
         
     }
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
