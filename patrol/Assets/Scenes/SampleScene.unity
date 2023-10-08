@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 20307126}
   - component: {fileID: 20307125}
   - component: {fileID: 20307127}
-  - component: {fileID: 20307128}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -277,18 +276,6 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &20307128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20307119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a5427ced9c9844c87365f3c8ed2cff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!850595691 &497105731
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -63165,7 +63152,6 @@ GameObject:
   - component: {fileID: 1850306922}
   - component: {fileID: 1850306921}
   - component: {fileID: 1850306920}
-  - component: {fileID: 1850306927}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Enemy
@@ -63314,15 +63300,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1850306927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850306919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a5427ced9c9844c87365f3c8ed2cff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
